@@ -17,7 +17,7 @@ export function SemesterDialog({ open, onOpenChange, onSuccess }: SemesterDialog
   const [name, setName] = useState("")
   const [loading, setLoading] = useState(false)
 
-  
+ 
   const onSubmit = async () => {
     try {
       setLoading(true)
