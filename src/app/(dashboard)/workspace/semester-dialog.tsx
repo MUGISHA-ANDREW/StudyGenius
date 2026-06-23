@@ -13,7 +13,6 @@ interface SemesterDialogProps {
   onSuccess?: (semester: Semester) => void
 }
 
-
 export function SemesterDialog({ open, onOpenChange, onSuccess }: SemesterDialogProps) {
   const [name, setName] = useState("")
   const [loading, setLoading] = useState(false)
