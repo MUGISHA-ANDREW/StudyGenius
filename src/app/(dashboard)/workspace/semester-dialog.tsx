@@ -7,6 +7,7 @@ import { Input } from "@/components/ui/input"
 import { createSemester } from "@/actions/workspace"
 import { Semester } from "@prisma/client"
 
+
 interface SemesterDialogProps {
   open: boolean
   onOpenChange: (open: boolean) => void
