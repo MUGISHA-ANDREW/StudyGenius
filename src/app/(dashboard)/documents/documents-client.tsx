@@ -20,6 +20,7 @@ interface DocumentsClientProps {
   initialData: PrismaDocument[]
 }
 
+
 export function DocumentsClient({ initialData }: DocumentsClientProps) {
   const [documents, setDocuments] = useState(initialData)
   const [isUploading, setIsUploading] = useState(false)
