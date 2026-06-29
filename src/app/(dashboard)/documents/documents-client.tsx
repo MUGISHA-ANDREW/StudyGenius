@@ -16,7 +16,6 @@ interface PrismaDocument {
   userId: string
 }
 
-
 interface DocumentsClientProps {
   initialData: PrismaDocument[]
 }
