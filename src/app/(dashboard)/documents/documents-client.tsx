@@ -28,7 +28,6 @@ export function DocumentsClient({ initialData }: DocumentsClientProps) {
   const filteredDocs = documents.filter(doc => 
     doc.name.toLowerCase().includes(searchQuery.toLowerCase())
   )
-
  
   const onUpload = (e: React.ChangeEvent<HTMLInputElement>) => {
     const file = e.target.files?.[0]
