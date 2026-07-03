@@ -71,8 +71,7 @@ export function DocumentsClient({ initialData }: DocumentsClientProps) {
             </div>
             <input 
               type="file" 
-              className="hidden" 
-          
+              className="hidden"           
               accept=".pdf,.txt"
               onChange={onUpload}
               disabled={isUploading}
