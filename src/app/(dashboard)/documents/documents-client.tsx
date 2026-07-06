@@ -80,8 +80,7 @@ export function DocumentsClient({ initialData }: DocumentsClientProps) {
         </div>
       </div>
  
-      <div className="grid gap-4">
-      
+      <div className="grid gap-4">     
         {filteredDocs.length === 0 ? (
           <div className="flex flex-col items-center justify-center p-20 border-2 border-dashed rounded-xl bg-muted/30">
             <FileText className="h-10 w-10 text-muted-foreground mb-4" />
