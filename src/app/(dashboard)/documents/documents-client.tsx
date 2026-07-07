@@ -86,7 +86,7 @@ export function DocumentsClient({ initialData }: DocumentsClientProps) {
             <FileText className="h-10 w-10 text-muted-foreground mb-4" />
             <p className="text-muted-foreground">No documents found.</p>
           </div>
-        
+       
         ) : (
           filteredDocs.map((doc) => (
             <Card key={doc.id} className="hover:border-primary/50 transition-colors group">
